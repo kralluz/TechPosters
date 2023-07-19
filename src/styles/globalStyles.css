@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body {
+    /* cores */
+    --brand1:#4263eb;
+    --brand2:#364fc7;
+    --grey0:#0a0c0d;
+    --grey1:#212529;
+    --grey2:#495047;
+    --grey3:#868e96;
+    --grey4:#DEE2E6;
+    --grey5:#F8F9FA;
+    --grey-opacity-1:rgba(33, 37, 41, 0.5);
+    --WhiteFixed: #fff;
+
+    /* Feedback Palette */
+    --like:#D7443E;
+
+
+    overflow-x: hidden;
+}
+
+.myComponent--Title1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+}
+
+.myComponent--Title2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size:1.25rem;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.myComponent--Text1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+.myComponent--Text2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    text-align: left;
+}
+
+.myComponent--Text3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.heart{
+    width: 25px;
+}
+
+.col1{
+    padding: 0 10%;
+    max-width: 65%;
+}
+
+
+@media (max-width: 768px){
+    .col1{
+        max-width: 100%;
+    }
+    
+    .col2 {
+        max-width: 55%;
+        padding:10% 0 10% 10%;
+    }
+    .info--profile{
+        margin: 16px -36px 20px 24px;
+    }
+}
+
+main{
+}

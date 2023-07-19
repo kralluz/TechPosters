@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=JetBrains+Mono&family=Lato:wght@100;300;400;700&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    max-width: 100%;
+
+    height: 76px;
+    background-color: var(--grey1);
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header > h3, a {
+    color: var(--WhiteFixed);
+    margin: 0 10%;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition-property: color, background-color;
+    transition-duration: .7s;
+    border-radius: 3px;
+}
+
+header > a:hover {
+    background-color: var(--WhiteFixed);
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: var(--brand1);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 76px;
+    max-width: 100%;
+}
+
+.profile--Suggest{
+    display: grid;
+    grid-template-columns: 20% auto auto;
+    grid-gap: 10px;
+    padding-right: 38%;
+}
+.profile--User{
+    display: grid;
+    grid-template-columns: 10% auto;
+    grid-gap: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.secondSubtitle{
+    margin: 20px 0px;
+}
+
+.grid-item {
+    margin: 10px 0px;
+    padding-left: 16px;
+}
+
+.profile--img{
+    width:52px;
+    margin-top: 8px;
+}
+
+.info--profile{
+    margin: 22px 0px 20px 0px;
+    text-align: center;
+}
+
+.profile--name{
+    width: 180px;
+    height: 24px;
+}
+
+.stack--profile{
+    color: var(--grey2);
+}
+
+.buttonStatus--active{
+    width: 89px;
+    height: 28px;
+    background-color:var(--brand1);
+    border-radius: 3px;
+    color: white;
+    margin-top: 20px;
+}
+
+.buttonStatus--inactive{
+    width: 69px;
+    height: 28px;
+    margin-top: 20px;
+    background-color:var(--grey5);
+    border-radius: 3px;
+    color: black;
+    border: solid 1px black;
+}
+
+.interact__area{
+    display: grid;
+    grid-template-columns: 15% 5% auto;
+}
+
+.learn--more{
+    background-color: var(--grey1);
+    color: var(--grey5);
+    width: 92px;
+    height: 38px;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+.postUser__text{
+    text-indent: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input--title{
+    width: 100%;
+    height: 52px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: solid 2px  var(--grey4);
+    padding: 10px;
+}
+.input--text{
+    width: 100%;
+    height: 130px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: solid 2px  var(--grey4);
+    padding: 10px;
+}
+
+.submit--post{
+    display: flex;
+    padding: 10px;
+    justify-content: end;
+
+}
+
+.submit--button{
+    width: 69px;
+    height: 38px;
+    border-radius:6px ;
+    background-color: var(--grey4);
+    color: var(--grey2);
+    
+}
+
+.submit--button:hover{
+    background-color: var(--brand1);
+    color: white;
+}
+
+
+
+.interact__area{ /* interactArea */
+    display: flex;
+    justify-content: left;
+    align-items:center;
+}
+
+.show__modal{ /* openPostUser */
+    margin: 3px ; 
+}
+
+.postUser__likeButton{ /* likeButton */
+    margin: 3px 6px;
+    display: flex;
+}
+
+.count__likes{ /* likeCount */
+    margin: 3px;
+}
